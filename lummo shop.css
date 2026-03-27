@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  color: #374151;
+  font-family: Circular Std;
+  /* line-height: 1.52rem; */
+}
+img{
+  width: 100%;
+}
+/* UTILITIES */
+.w-full{
+  width: 100%;
+}
+.d-flex{
+display: flex;
+
+}
+.flex-col{
+flex-direction: column;
+}
+.flex-row{
+  flex-direction: row;
+}
+.flex-row-reverse{
+  flex-direction: row-reverse;
+}
+.align-item{
+  align-items: center;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.justify-content-around{
+  justify-content: space-around;
+}
+.display-hidden{
+  display: none;
+}
+.bg-blue{
+  background-color:rgb(49 27 146 );
+}
+.bg-green{
+  background-color: rgb(170 233 0);
+}
+.bg-light{
+
+background-color: rgb(238 242 255 );}
+.bg-white{
+  background-color: rgb(244 249 253)
+}
+.bg-grey{
+  background-color: rgb(156 163 175)
+}
+.text-white{
+color: white;
+}
+.text-color{
+color: rgb(111 95 179);}
+.text-blue{
+  
+  color: rgb(49 27 146 )
+}
+.text-4x1{
+  font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+.text-align{
+text-align: unset;
+}
+
+.gap-1{
+  gap: 1rem;
+}
+.gap-2
+{
+  gap: .25rem;
+}
+.gap-3{
+  gap: 5rem;
+}
+.gap-4{
+  gap: 3rem;
+}
+.padding-top{
+padding-top: 40px;
+}
+.p-xy{
+  padding: 2px 4rem;
+}
+.pb
+{
+  padding-bottom: 30px;
+}
+.p-1{
+  padding: 0.25rem 0.75rem;
+}
+.p-2{
+  padding: .25rem 1rem;
+}
+.p-3{
+  padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.85rem;
+    padding-right: 1.85rem;
+}
+.p-4{
+  padding-top: 4rem;
+    padding-bottom: 4rem
+}
+.p-5{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.p-6{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.p-7{
+  padding: 0 15px;
+}
+.p-8{
+  padding-left: 6rem;
+}
+.p-9{
+padding-left: 1.25rem;
+padding-right: 1.25rem;
+}
+
+
+.font-size-1{
+font-size: 1.875rem;
+}
+.font-size-2{
+  font-size: 1.5rem;
+}
+.font-size-3{
+  font-size: 15px;
+}
+.font-size-4{
+  font-size: 13px;
+}
+.font-size-5{
+  font-size: 2.25rem;
+}
+.font-size-6{
+  font-size: 1.25rem;
+}
+.font-weight-700{
+  font-weight: 700;
+}
+
+
+/* .font{
+font-size: .875rem;
+font-weight: 600;
+} */
+.border-none{
+  border: none;
+} 
+.border-radius{
+border-radius: 50%;
+}
+.relative{
+  position: relative;
+}
+.block{
+  display: block;
+}
+.font-extrabold{
+  font-weight: 800;
+}
+.line-height{
+line-height: 3.8rem;
+}
+.text-size-1{
+  font-size: 3.1rem;
+}
+.mb{
+  margin-bottom: 1rem;
+}
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+.mb-2{
+  margin-bottom: 2.5rem;
+}
+.mb-3{
+  margin-bottom: 1rem;
+}
+.mb-4{
+  margin-bottom: 4rem;
+}
+.mt{
+  margin-top: 3rem;
+}
+.margin-auto{
+  margin-right: auto;
+  margin-left: auto;
+}
+.mt-2{
+  margin-top: 4rem;
+}
+.mt-1{
+  margin-top: 1rem;
+}
+.m-1{
+  margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.margin{
+  margin-top: 4rem;
+}
+.margin-right{
+ margin-right: .5rem;
+}
+
+.text-green{
+  color: rgb(170 233 0)
+}
+.text-center{
+  text-align: center;
+}
+.max-width-775{
+  max-width: 775px;
+}
+.opacity{
+  opacity: .8;
+}
+.max-width-370{
+  max-width: 370px;
+}
+.max-width-500{
+  max-width: 500px;
+}
+.max-width-464{
+  max-width: 464px;
+}
+.min-width-520px{
+min-width: 520px;
+}
+.max-width-850{
+  max-width: 850px;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  font-weight: 700;
+}
+p{
+  font-weight: bolder;
+}
+
+.navbar {
+  padding: 20px;
+  color: azure;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  /* width: 100vw; */
+}
+.nav-links a{
+  color: white;
+}
+
+
+.lummo-shop-logo {
+  height: 50px;
+  padding-left: 5rem;
+}
+.menu {
+  font-size: 15px;
+}
+.menu li {
+  padding: 5px 14px;
+}
+/* .Layanan{
+  position: relative; 
+} */
+
+.dropdown {
+  background-color: rgb(255, 255, 255) ;
+ 
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 30px;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 10em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: #56616125;
+}
+
+.Layanan:hover .dropdown {
+  display: block;
+}
+.Jelajahi:hover .dropdown {
+  display: block;
+}
+button{
+  cursor: pointer;
+  /* font-weight: 900; */
+  width: fit-content;
+  border-radius: 5px;
+}
+button:hover{
+  opacity: .9;
+}
+.container{
+ width: 100%;
+ max-width: 1320px;
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h2{
+  font-weight: bolder;
+}
+.wrap{
+  width: 50%;
+  padding: 0 15px;
+}
+.rounded{
+width: 32px;
+height: 32px;
+border-radius: 50%;
+}
+.graits{
+  position: absolute;
+  color: rgb(65, 69, 71);
+  background-color: antiquewhite;
+  width: 60px;
+  height: 23px;
+  border-radius: 10px;
+  /* left: 80%;
+   */
+   right: -25px;
+  top: -12px;
+  padding-top: 2px;
+    padding-bottom: 2px
+  
+}
+.margin-0{
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer-img{
+  max-width: 150px;
+  
+  margin-bottom: 40px;
+}
+.text-align-start{
+  text-align: start;
+}
+.scrol-to-top{
+  
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 999px;
+    background-color: #6f5fb3;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    
+    
+    color: #fff;
+    
+}
+.logo-store{
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+.arrow{
+  width: 32px;
+  height: 32px;
+  background-color: #6f5fb3;
+  color: #311b92;
+  font-size: 1.125rem;
+  border-radius: 100%;
+  border: none;
+}
+.overflow-y{
+  overflow-y: auto;
+}
+.overflow-y::-webkit-scrollbar{
+  display: none;
+}
+.top{
+  top: 22rem;
+}
+.accordion
+{
+  width: 600px;
+}
+.accordion li{
+  list-style: none;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: rgb(234 232 244);
+  padding: 20px;
+  /* padding-bottom: 100px; */
+  border: 1px solid rgb(173 164 211);
+  border-radius: 3px;
+}
+.accordion li lable{
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.accordion span{
+  /* transform: rotate(90deg); */
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+.accordion label + input[type="checkbox"]{
+  display: none;
+}
+.accordion .contant{
+  /* padding-top: 20px; */
+  /* padding-bottom: 80px; */
+  font-weight: normal;
+  line-height: 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .5s ;
+}
+.accordion label + input[type="checkbox"]:checked + .contant{
+  max-height: 1000px;
+  padding-bottom: 100px;
+  padding-top: 20px;
+  white-space: normal;
+}
+

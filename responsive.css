@@ -1,0 +1,261 @@
+input[type=checkbox] {
+    display: none;
+  } 
+  
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    /* user-select: none; */
+  }
+  @media  (max-width: 1275px){
+    .width-540{
+      width: 540px;
+    }
+  }
+  @media (max-width: 1150px) {
+   .menu {
+      display:none;
+      position: absolute;
+      background-color:rgb(49 27 146 );
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 30px 0;
+    }
+  
+    .menu li:hover {
+      display: inline-block;
+      /* transition: 0.3s ease; */
+    }
+  
+ .menu li + li { 
+      margin-top: 12px;
+    }
+  
+    input[type=checkbox]:checked ~ .menu {
+      display: block;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .dropdown {
+        position: relative;
+        /* display: block; */
+      /* left: 40%; */
+      top: 10px;
+      transform: translateX(5%);
+      
+    }
+  
+    .dropdown li:hover {
+      background-color: #49729425;
+      
+    }
+    .login{
+        width: 120px;
+    }
+    button:hover{
+        opacity: .9;
+    }
+    .justify-contant-center{
+      justify-content: center;
+    }
+    .width-450px{
+      width: 450px;
+    }
+    .top{
+      top: 18rem;
+    }
+  }
+  
+    
+  
+  @media (max-width: 1005px){
+    .hero-section{
+      min-width: 460px;
+    }
+    .text-size{
+      font-size: 1.23rem;
+    }
+    .p-8{
+      padding: 0 15px
+    }
+    /* p{
+      font-weight: normal;
+    } */
+    .font-size-5{
+      font-size: 1.5rem;
+    }
+    .gap-3{
+      gap: .5rem;
+    }
+    .top{
+      top: 17rem;
+    }
+  }
+  @media (max-width: 1065px){
+.contact-list{
+  display: flex;
+}
+  }
+  @media (max-width: 1020px){
+    .button{
+      flex-direction: column;
+    }
+    .top{
+      top: 17rem;
+    }
+  }
+  @media (max-width: 991px){
+    .container{
+      max-width: 720px;
+    }
+    .hero-section{
+      min-width: 320px;
+    }
+    /* .margin{
+      margin-top: 3.5rem;
+    } */
+    .text-size-1 {
+      font-size: 2.3rem;
+  }
+  .line-height {
+      line-height: 2.87rem;}
+    .p-5{
+      padding-left: .2rem;
+      padding-right: .2rem;
+    }
+
+    .flex-direction-col{
+      flex-direction: column;
+      
+    }
+    .align-item-center{
+      align-items: center;
+    }
+    .gap-0{
+      gap: 0;
+    }
+    .top{
+      top: 11rem;
+    }
+  }
+@media (max-width: 767px) {
+  .container {
+    max-width: 540px;
+}
+  .flex-direction-col{
+    flex-direction: column;
+  }
+  .flex-direction-col-reverse{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .button{
+    flex-direction: row;
+  }
+  .hero-section{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.wrap{
+  width: revert;
+  padding: 0 15px;
+}
+.pt{
+ padding-top: 2rem;
+}
+.padding-t-b{
+  padding: 25px 0;
+}
+.pading{
+  padding: 2rem 2rem;
+}
+.mt{
+  margin-top: 2rem;
+}
+.top{
+  top: 10rem;
+}
+.flex-direction-col{
+  flex-direction: column;
+}
+.flex-direction-row{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hidden{
+  display: none;
+}
+.mx-auto{
+  margin-left: auto;
+  /* margin-right: auto; */
+}
+.d-block{
+  display: block;
+}
+}
+@media (max-width: 467px) {
+   .p-3{
+    padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      padding-left: .85rem;
+      padding-right: .85rem;
+    }
+  .width-350px{
+    width: 350px;
+  }
+  .flex-direction-col{
+    flex-direction: column;
+  }
+  .flex-direction-row{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hidden{
+    display: none;
+  }
+  .mx-auto{
+    margin-left: auto;
+    /* margin-right: auto; */
+  }
+  .d-block{
+    display: block;
+  }
+}
+@media (max-width: 400px) {
+  .container{
+    max-width: 420px;
+  }
+  .width-255px{
+    width: 255px;
+  }
+  .graits{
+    right: -11px;
+    top: -17px;
+  }
+  .flex-direction-col{
+    flex-direction: column;
+  }
+  .flex-direction-row{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hidden{
+    display: none;
+  }
+  .mx-auto{
+    margin-left: auto;
+    /* margin-right: auto; */
+  }
+  .d-block{
+    display: block;
+}
+
+}
